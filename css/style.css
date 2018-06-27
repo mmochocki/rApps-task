@@ -56,7 +56,7 @@ ul li {
 
 .menu a{
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     display: block;
     padding: 5px;
 }
@@ -69,4 +69,14 @@ ul li {
 
 .image-section img{
     width: 100%;
+}
+
+.spacer-top-bottom{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.ch-position{
+    text-align: center;
 }

@@ -56,7 +56,7 @@ ul li {
 
 .menu a{
     text-decoration: none;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.9);
     display: block;
     padding: 5px;
 }
@@ -79,4 +79,32 @@ ul li {
 
 .ch-position{
     text-align: center;
+}
+
+
+.language-box{
+    border-left: 2px rgba(253, 253, 254, 0.21) solid;
+    justify-content: center;
+    min-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+.language-box ul li{
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 8px;
+
+}
+
+.language-box ul li a{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.language-box ul li a:hover{
+
+    color: #333;
+    text-decoration: none;
 }

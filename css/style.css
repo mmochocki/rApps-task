@@ -153,6 +153,41 @@ ul li {
     color: #00b97e;
 }
 
-.width-75{
-    max-height: 75%;
+.footer{
+    padding: 50px 100px 50px 100px;
+    width: 100%;
+}
+
+
+.footer img{
+    max-width: 100%;
+}
+
+.footer .findus{
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.sitemap-title{
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.social{
+    margin-bottom: 30px;
+}
+
+.copyright-box{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.list-unstyled li{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 2em;
+    color: #8d8d8d;
+    font-weight: 800;
+    font-size: 0.9em;
 }

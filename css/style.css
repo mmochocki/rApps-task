@@ -19,8 +19,14 @@ body{
 
 
 .menu{
-    text-align: right;
+    text-align: center;
     color: rgba(255, 255, 255, 0.9);
+}
+
+@media screen and (min-width: 845px) {
+    .menu {
+        text-align: right;
+    }
 }
 
 ul li {
@@ -88,6 +94,7 @@ ul li {
     min-height: 30px;
     padding-top: 20px;
     padding-bottom: 15px;
+    text-align: center;
 
 }
 
@@ -98,6 +105,11 @@ ul li {
     margin-right: 8px;
 
 }
+       @media screen and (max-width: 900px) {
+            .language-box ul {
+                width: 100%;
+            }
+        }
 
 .language-box ul li a{
     color: rgba(255, 255, 255, 0.9);
@@ -110,13 +122,27 @@ ul li {
 }
 
 
+
+
 .grid-container {
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
     background-color: rgba(33, 150, 243, 0.09);
     padding: 0px;
     margin-top: -5px;
 }
+
+        @media screen and (min-width: 460px) {
+            .grid-container {
+                grid-template-columns: 33.33% 33.33% 33.33%;
+            }
+        }
+
+        @media screen and (max-width: 460px) {
+            .grid-container {
+                grid-template-columns: 100%;
+            }
+        }
+
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.03);
@@ -131,17 +157,35 @@ ul li {
 
 .seo-section{
     background-color: #f4f6f6;
-    padding: 100px 100px 100px 100px;
+    padding: 20px 20px 20px 20px;
 
 }
+    @media screen and (min-width: 500px) {
+        .seo-section {
+            padding: 100px 100px 100px 100px;
+        }
+    }
 
 .seo-section h2{
     font-size: 24px;
     text-align: center;
     font-weight: 800;
-    margin-bottom: 30px;
-    height: 50px;
+
 }
+        @media screen and (max-width: 500px) {
+            .seo-section h2 {
+                height: 100px;
+                margin-bottom: 50px;
+            }
+        }
+
+        @media screen and (min-width: 500px) {
+            .seo-section h2 {
+                height: 50px;
+            }
+        }
+
+
 
 .seo-section p {
     text-align: justify;
@@ -154,10 +198,15 @@ ul li {
 }
 
 .footer{
-    padding: 50px 100px 50px 100px;
+    padding: 20px 20px 20px 20px;
     width: 100%;
 }
 
+    @media screen and (min-width: 500px) {
+        .footer {
+            padding: 50px 100px 50px 100px;
+        }
+    }
 
 .footer img{
     max-width: 100%;

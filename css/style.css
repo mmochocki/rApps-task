@@ -29,9 +29,6 @@ body{
     }
 }
 
-ul li {
-
-}
 
 .menu ul{
     display: inline-block;
@@ -66,6 +63,12 @@ ul li {
     display: block;
     padding: 5px;
 }
+
+        @media screen and (max-width: 768px) {
+            .menu{
+                display:none;
+            }
+        }
 
 .menu a:hover{
 
@@ -239,4 +242,28 @@ ul li {
     color: #8d8d8d;
     font-weight: 800;
     font-size: 0.9em;
+}
+
+.navbar{
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 767px) {
+    .navbar{
+        display: none;
+    }
+}
+
+.navbar ul li{
+    list-style: none;
+    justify-content: center;
+}
+
+.navbar ul li a{
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: #333;
 }
